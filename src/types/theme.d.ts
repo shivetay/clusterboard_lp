@@ -1,0 +1,70 @@
+declare module '@mui/material/styles' {
+  interface TypeBackground {
+    default?: string;
+    paper?: string;
+    transparent?: string;
+    bgSecondary?: string;
+    gradientText?: string;
+    gradientTextSecondary?: string;
+    primaryTransparent?: string;
+    bgLight?: string;
+    bgLightTransparent?: string;
+  }
+
+  interface TypeText {
+    primary: string;
+    secondary: string;
+    dark: string;
+    tertiary: string;
+  }
+
+  interface PaletteOptions {
+    border?: {
+      main?: string;
+      secondary?: string;
+    };
+    background?: {
+      default?: string;
+      paper?: string;
+      transparent?: string;
+      bgSecondary?: string;
+      gradientText?: string;
+      gradientTextSecondary?: string;
+      primaryTransparent?: string;
+      bgLight?: string;
+      bgLightTransparent?: string;
+    };
+    text?: {
+      primary?: string;
+      secondary?: string;
+      dark?: string;
+      tertiary?: string;
+    };
+  }
+
+  interface Palette {
+    border: {
+      main: string;
+      secondary: string;
+    };
+    background: {
+      default: string;
+      paper: string;
+      transparent: string;
+      bgSecondary: string;
+      gradientText: string;
+      gradientTextSecondary: string;
+      primaryTransparent: string;
+      bgLight: string;
+      bgLightTransparent: string;
+    };
+    text: {
+      primary: string;
+      secondary: string;
+      dark: string;
+      tertiary: string;
+    };
+  }
+}
+
+export {};
