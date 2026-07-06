@@ -1,9 +1,9 @@
 import type { Metadata, Viewport } from 'next';
 import { Poppins } from 'next/font/google';
 import { LandingFooter, LandingHeader } from '@/components';
+import { LandingLayoutShell } from '@/components/layout/landing-layout-shell';
 import { I18nProvider } from '@/providers';
 import { ThemeProvider } from '@/theme';
-import { LayoutContainer } from './layout.styled';
 
 const poppins = Poppins({
   weight: ['400', '500', '600', '700'],
@@ -35,11 +35,12 @@ export default function RootLayout({
       <body suppressHydrationWarning>
         <ThemeProvider>
           <I18nProvider locale="pl">
-            <LayoutContainer>
-              <LandingHeader />
+            <LandingLayoutShell
+              header={<LandingHeader />}
+              footer={<LandingFooter />}
+            >
               {children}
-              <LandingFooter />
-            </LayoutContainer>
+            </LandingLayoutShell>
           </I18nProvider>
         </ThemeProvider>
       </body>

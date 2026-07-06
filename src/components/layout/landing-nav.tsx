@@ -11,6 +11,9 @@ export function LandingNav() {
 
   return (
     <NavbarContainer>
+      <CustomButton variant="outlined" href="/demo">
+        {t(TRANSLATION_GROUPS.MAIN_PAGE.MAIN_PAGE_DEMO_BUTTON_TEXT)}
+      </CustomButton>
       <CustomButton href={appPath('/sign-in')}>
         {t(TRANSLATION_GROUPS.COMMON.LOGIN_BTN)}
       </CustomButton>

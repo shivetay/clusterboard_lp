@@ -46,6 +46,9 @@ export function MainPageHero() {
               >
                 {t(TRANSLATION_GROUPS.MAIN_PAGE.MAIN_PAGE_FREE_BUTTON_TEXT)}
               </CustomButton>
+              <CustomButton variant="outlined" href="/demo">
+                {t(TRANSLATION_GROUPS.MAIN_PAGE.MAIN_PAGE_DEMO_BUTTON_TEXT)}
+              </CustomButton>
             </HeroActions>
           </HeroContent>
         </Box>

@@ -12,6 +12,7 @@ export const TRANSLATIONS = {
     'Jedna tablica dla Ciebie i Twojego klienta. Zarządzaj etapami, akceptacjami i komunikacją bez chaosu w mailach. Zgromadź inspiracje, dokumenty i etapy prac w jednym, profesjonalnym miejscu.',
   MAIN_PAGE_BUTTON_TEXT: 'Zacznij teraz od 49pln',
   MAIN_PAGE_FREE_BUTTON_TEXT: 'Załóż darmowe konto',
+  MAIN_PAGE_DEMO_BUTTON_TEXT: 'Zobacz demo',
 
   // Hero section
   MAIN_PAGE_HERO_TITLE_1: 'Twoje projekty zasługują na porządek.',
